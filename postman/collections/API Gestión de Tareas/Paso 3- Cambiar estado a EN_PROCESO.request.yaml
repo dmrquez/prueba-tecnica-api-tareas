@@ -1,12 +1,12 @@
 $kind: http-request
-name: http://localhost:3000/tareas/1/estado
+name: "Paso 3: Cambiar estado a EN_PROCESO"
 url: http://localhost:3000/tareas/1/estado
 method: PUT
 body:
   type: json
   content: "{\r
 
-    \  \"estado\": \"COMPLETADA\"\r
+    \  \"estado\": \"EN_PROCESO\"\r
 
     }"
-order: 5000
+order: 3000

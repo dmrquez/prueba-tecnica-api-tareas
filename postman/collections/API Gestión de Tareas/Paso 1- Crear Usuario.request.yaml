@@ -1,5 +1,5 @@
 $kind: http-request
-name: http://localhost:3000/usuarios
+name: "Paso 1: Crear Usuario"
 url: http://localhost:3000/usuarios
 method: POST
 body:

@@ -1,5 +1,5 @@
 $kind: http-request
-name: http://localhost:3000/tareas/1
+name: "Paso 7: Eliminar Tarea"
 url: http://localhost:3000/tareas/1
 method: DELETE
 body:

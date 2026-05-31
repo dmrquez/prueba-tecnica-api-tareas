@@ -1,5 +1,5 @@
 $kind: http-request
-name: http://localhost:3000/tareas
+name: "Paso 2: Registrar Tarea"
 url: http://localhost:3000/tareas
 method: POST
 body:

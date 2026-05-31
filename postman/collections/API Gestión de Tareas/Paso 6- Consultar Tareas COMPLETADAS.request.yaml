@@ -1,5 +1,5 @@
 $kind: http-request
-name: http://localhost:3000/usuarios/1/tareas?estado=COMPLETADA
+name: "Paso 6: Consultar Tareas COMPLETADAS"
 url: http://localhost:3000/usuarios/1/tareas?estado=COMPLETADA
 method: GET
 queryParams:
