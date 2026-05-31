@@ -1,0 +1,12 @@
+$kind: http-request
+name: http://localhost:3000/tareas/1/estado
+url: http://localhost:3000/tareas/1/estado
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"estado\": \"EN_PROCESO\"\r
+
+    }"
+order: 3000

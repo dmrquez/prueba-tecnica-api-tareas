@@ -1,0 +1,16 @@
+$kind: http-request
+name: http://localhost:3000/tareas
+url: http://localhost:3000/tareas
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"usuario_id\": 1,\r
+
+    \  \"titulo\": \"Revisar servidores\",\r
+
+    \  \"descripcion\": \"Verificar logs del servidor principal\"\r
+
+    }"
+order: 2000

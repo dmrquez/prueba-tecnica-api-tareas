@@ -1,0 +1,12 @@
+$kind: http-request
+name: http://localhost:3000/usuarios/1/tareas?estado=EN_PROCESO&desde=2023-01-01&hasta=2026-12-31
+url: http://localhost:3000/usuarios/1/tareas?estado=EN_PROCESO&desde=2023-01-01&hasta=2026-12-31
+method: GET
+queryParams:
+  estado: EN_PROCESO
+  desde: 2023-01-01
+  hasta: 2026-12-31
+body:
+  type: json
+  content: ""
+order: 4000

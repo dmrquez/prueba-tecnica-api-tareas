@@ -1,0 +1,7 @@
+$kind: http-request
+name: http://localhost:3000/usuarios/1/tareas?estado=COMPLETADA
+url: http://localhost:3000/usuarios/1/tareas?estado=COMPLETADA
+method: GET
+queryParams:
+  estado: COMPLETADA
+order: 6000
